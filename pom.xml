@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sankuai.meituan.meplatform</groupId>
+    <artifactId>mqy-util</artifactId>
+    <version>0.0.1</version>
+    <packaging>war</packaging>
+
+    <name>mqy-util</name>
+    <url>http://maven.apache.org</url>
+
+
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <depend.version>promotion-0.0.1.1-SNAPSHOT</depend.version>
+        <java-version>1.7</java-version>
+        <system.lib.path>${basedir}/src/main/webapp/WEB-INF/lib</system.lib.path>
+        <spring.framework.version>3.2.14.RELEASE</spring.framework.version>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
+        <system.lib.path>${basedir}/src/main/webapp/WEB-INF/lib</system.lib.path>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.cip.crane</groupId>
+            <artifactId>crane-client</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sankuai.mms</groupId>
+            <artifactId>mms-boot</artifactId>
+            <version>1.2.0-SNAPSHOT</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+
+
+
+
+
+
+
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.12</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+
+
+        <!--MSS-->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>mss-java-sdk-s3</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.javaswift</groupId>
+            <artifactId>joss</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>com.dianping.lion</groupId>
+            <artifactId>lion-client</artifactId>
+            <version>0.5.4</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-core</artifactId>
+                </exclusion>
+
+                <exclusion>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-api</artifactId>
+                </exclusion>
+
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.dianping.cat</groupId>
+            <artifactId>cat-client</artifactId>
+            <version>1.3.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dianping</groupId>
+            <artifactId>avatar-tracker</artifactId>
+            <version>2.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+            <classifier>jdk15</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.dianping.swallow</groupId>
+            <artifactId>swallow-producerclient</artifactId>
+            <version>0.8.0</version>
+        </dependency>
+
+        <!--<dependency>-->
+        <!--<groupId>org.mortbay.jetty</groupId>-->
+        <!--<artifactId>jetty</artifactId>-->
+        <!--<version>6.1.26</version>-->
+        <!--</dependency>-->
+        <!--end 上海mq-->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9</version>
+        </dependency>
+
+        <!--<dependency>-->
+        <!--<groupId>org.xhtmlrenderer</groupId>-->
+        <!--<artifactId>flying-saucer-pdf-itext5</artifactId>-->
+        <!--<version>9.0.3-RC1</version>-->
+        <!--<scope>system</scope>-->
+        <!--<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/flying-saucer-pdf-itext5-9.0.3-RC1.jar</systemPath>-->
+        <!--</dependency>-->
+
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>flying-saucer-core</artifactId>
+            <version>9.0.3-RC1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>flying-saucer-pdf-itext5</artifactId>
+            <version>9.0.3-RC1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+
+        <!-- echarts 辅助类-->
+        <dependency>
+            <groupId>com.github.abel533</groupId>
+            <artifactId>ECharts</artifactId>
+            <version>3.0.0.1</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>${java-version}</source>
+                    <target>${java-version}</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+                <configuration>
+                    <warSourceExcludes>**/WEB-INF/conf/*.properties,**/WEB-INF/conf/log4j.xml
+                    </warSourceExcludes>
+                    <outputDirectory>target</outputDirectory>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.2.3.v20140905</version>
+                <configuration>
+                    <httpConnector>
+                        <port>8090</port>
+                    </httpConnector>
+                    <stopPort>9090</stopPort>
+                    <stopKey>a</stopKey>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+            <!--<plugin>-->
+            <!--<groupId>org.apache.maven.plugins</groupId>-->
+            <!--<artifactId>maven-javadoc-plugin</artifactId>-->
+            <!--<version>2.9</version>-->
+            <!--<configuration>-->
+            <!--<doclet>com.sankuai.meituan.javadoc.apicontroller.doclet.ServerApiDoclet-->
+            <!--</doclet>-->
+            <!--<docletArtifact>-->
+            <!--<groupId>com.sankuai.meituan</groupId>-->
+            <!--<artifactId>mt-javadoc</artifactId>-->
+            <!--<version>1.0.1</version>-->
+            <!--</docletArtifact>-->
+            <!--<useStandardDocletOptions>false</useStandardDocletOptions>-->
+            <!--<encoding>UTF-8</encoding>-->
+            <!--</configuration>-->
+            <!--</plugin>-->
+        </plugins>
+    </build>
+
+
+
+</project>
