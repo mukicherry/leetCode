@@ -18,12 +18,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/tools/UacAuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/pom.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/rscmag/impl/AcUrlRoleServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/web/v1/uac/api/UacUserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/resources/base/applicationContext-uac.xml">
           <value>
             <set />
           </value>
@@ -154,6 +169,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/K_diff_Pairs_in_a_array/Solution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/_18_4_Sum/OthersSolution.java">
           <value>
             <set />
           </value>
