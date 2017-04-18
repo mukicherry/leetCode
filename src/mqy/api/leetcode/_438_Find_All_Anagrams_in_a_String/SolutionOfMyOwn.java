@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Created by maoqiyun on 2017/4/18.
  */
-public class Solution {
+public class SolutionOfMyOwn {
     public List<Integer> findAnagrams(String s, String p) {
         // 好尼玛奇葩，为什么提交了，没有显示有contribution
 
