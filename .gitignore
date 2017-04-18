@@ -22,7 +22,8 @@ src/main/webapp/META-INF/
 src/test/resources/conf_path.properties
 target
 .module-cache
- 
+
+ */*.class
 .sass-cache
 src/main/webapp/static/css/**/*.css*
 
