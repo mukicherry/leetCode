@@ -28,6 +28,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/domain/AcBusinessSys.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/resource/busiSys/AcBusiSysWhiteListModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/resource/menupage/AcMenuQueryModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/user/SimpleUserModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/rscmag/AcBusiSysWhiteListService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/rscmag/impl/AcBusiSysServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/rscmag/impl/AcBusiSysWhiteListServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/rscmag/impl/AcMenuServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/rscmag/impl/AcUrlRoleServiceImpl.java">
           <value>
             <set />
@@ -178,6 +218,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/TitileStringConvert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/TitileStringConvertor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/_136_Single_Number/Solution.java">
           <value>
             <set />
@@ -199,6 +249,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/_234_Palindrome_Linked_List/OthersSolution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/_3_Longest_Substring_Without_Repeating_Characters/Solution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/_438_Find_All_Anagrams_in_a_String/OthersSolution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/leetcode/_438_Find_All_Anagrams_in_a_String/Solution.java">
           <value>
             <set />
           </value>
