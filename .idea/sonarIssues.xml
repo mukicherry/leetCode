@@ -13,7 +13,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/dataauth/DataAuthInfoFetchAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/dataauth/DataAuthInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/dataauth/DataThreadLocal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/dataauth/MapperContextAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/dataauth/ThreadLocalThread.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/dataauth/UserInfoFetchAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/shiro/UserAndTenantUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-sdk/src/main/java/com/sankuai/meituan/uac/shiro/filter/UacResourceRequestFilter.java">
           <value>
             <set />
           </value>
@@ -33,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/DataAuthZKModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/resource/busiSys/AcBusiSysWhiteListModel.java">
           <value>
             <set />
@@ -44,6 +84,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/user/SimpleUserModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/DataAuthInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/aop/DataAuthInfoFetchAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/aop/MapperContextAspect.java">
           <value>
             <set />
           </value>
@@ -73,12 +128,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/squirrel/cache/UacCacheTenant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/squirrel/cache/UacDefaultCache.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/web/v1/uac/AcRoleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/web/v1/uac/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/web/v1/uac/api/UacUserController.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/resources/base/applicationContext-uac.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/resources/base/applicationContext-utils.xml">
           <value>
             <set />
           </value>
@@ -148,6 +228,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/AssociateTBInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/DataAuthAtomRule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/DataAuthRelation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/DataAuthRule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/DruidTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/ColumnInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/ColumnRelation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/TableColumnRelation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/TableInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/javaBasicTest/AbstractB.java">
           <value>
             <set />
@@ -164,6 +289,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/javaBasicTest/ImplimentationClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/javaBasicTest/StringRegexTest.java">
           <value>
             <set />
           </value>

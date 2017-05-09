@@ -48,6 +48,7 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.3" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.15" />
           <element id="library" level="project" name="Maven: com.dianping.lion:lion-client:0.5.4" />
           <element id="library" level="project" name="Maven: org.apache.curator:curator-framework:2.7.1" />
           <element id="library" level="project" name="Maven: org.apache.curator:curator-client:2.7.1" />

@@ -16,10 +16,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="leetCode" />
         <module name="projInHack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="leetCode" target="1.7" />
       <module name="projInHack" target="1.7" />
     </bytecodeTargetLevel>
   </component>

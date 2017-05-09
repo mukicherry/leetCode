@@ -87,6 +87,11 @@
             <version>1.0.2-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.15</version>
+        </dependency>
 
 
         <dependency>

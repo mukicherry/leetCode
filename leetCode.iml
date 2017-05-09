@@ -73,6 +73,25 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.0.15" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.alibaba:jconsole:1.8.0">
+        <CLASSES>
+          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/lib/jconsole.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.alibaba:tools:1.8.0">
+        <CLASSES>
+          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/lib/tools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: com.dianping.lion:lion-client:0.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-framework:2.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-client:2.7.1" level="project" />
