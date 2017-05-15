@@ -10,9 +10,9 @@ import java.util.*;
  * hcm_job_index = 0
  *
  */
-public class DataAuthRule {
+public class DataAuthRuleSet {
 
-    private List<DataAuthRelation> dataAuthRelationList; // 实际上这应该是一个链表，最后一个节点DataAuthRelation的relation应该是null
+    private List<DataAuthRelation> dataAuthRelationList = new ArrayList<>(); // 实际上这应该是一个链表，最后一个节点DataAuthRelation的relation应该是null
 
     public List<DataAuthRelation> getDataAuthRelationList() {
         return dataAuthRelationList;
@@ -20,6 +20,10 @@ public class DataAuthRule {
 
     public void setDataAuthRelationList(List<DataAuthRelation> dataAuthRelationList) {
         this.dataAuthRelationList = dataAuthRelationList;
+    }
+
+    public void addDataAuthRelation(DataAuthRelation dataAuthRelation) {
+        this.dataAuthRelationList.add(dataAuthRelation);
     }
 
     static StringBuilder dataAuthParser(List<DataAuthRelation> dataAuthRelationList) {

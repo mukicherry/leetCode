@@ -10,28 +10,28 @@ public class TableColumnRelation {
 
     // TB_a.Column_a1 <-> TB_b.Column_b1
 
-    private TableInfo.ColumnInfo subject1;  // TB_a.Column_a1
+    private ColumnInfo subject1;  // TB_a.Column_a1
 
-    private TableInfo.ColumnInfo subject2;  // TB_b.Column_b1
+    private ColumnInfo subject2;  // TB_b.Column_b1
 
-    public TableColumnRelation(TableInfo.ColumnInfo subject1, TableInfo.ColumnInfo subject2) {
+    public TableColumnRelation(ColumnInfo subject1, ColumnInfo subject2) {
         this.subject1 = subject1;
         this.subject2 = subject2;
     }
 
-    public TableInfo.ColumnInfo getSubject1() {
+    public ColumnInfo getSubject1() {
         return subject1;
     }
 
-    public void setSubject1(TableInfo.ColumnInfo subject1) {
+    public void setSubject1(ColumnInfo subject1) {
         this.subject1 = subject1;
     }
 
-    public TableInfo.ColumnInfo getSubject2() {
+    public ColumnInfo getSubject2() {
         return subject2;
     }
 
-    public void setSubject2(TableInfo.ColumnInfo subject2) {
+    public void setSubject2(ColumnInfo subject2) {
         this.subject2 = subject2;
     }
 
@@ -45,7 +45,7 @@ public class TableColumnRelation {
 
     /**
      * 获取有关联关系的表
-     * @param associateRelationList 业务系统
+     * @param associateRelationList 业务系统关联关系的表集合
      * @return
      */
     public static Set<TableInfo> getDistinctTableSet(List<TableColumnRelation> associateRelationList) {

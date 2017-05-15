@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/resource/tablerel/TableInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/model/uac/user/SimpleUserModel.java">
           <value>
             <set />
@@ -99,6 +104,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/aop/MapperContextAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../accore/uac-web/src/main/java/com/sankuai/meituan/hcm/service/uac/dataauth/sqlRewrite.md">
           <value>
             <set />
           </value>
@@ -248,7 +258,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/DataAuthRuleRelEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/DataAuthRuleSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/druid/DruidTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/SqlAppendEnum.java">
           <value>
             <set />
           </value>
@@ -263,12 +288,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/DBSechema.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/TableColumnRelation.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/TableInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mqy/api/druid/tableRel/TableInitUtil.java">
           <value>
             <set />
           </value>

@@ -10,6 +10,14 @@ public class DataAuthRelation {
 
     private DataAuthAtomRule atomRule;
 
+    public DataAuthRelation(String relation, DataAuthAtomRule atomRule) {
+        this.relation = relation;
+        this.atomRule = atomRule;
+    }
+
+    public DataAuthRelation() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
